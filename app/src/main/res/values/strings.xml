@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">KabaddiCounter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_0">0</string>
+    <string name="team_b">Team B</string>
+    <string name="team_a">Team A</string>
+    <string name="_2">+2</string>
+    <string name="_1">+1</string>
+    <string name="reset">RESET</string>
+    <string name="view_model">View Model</string>
+    <string name="view_model_data_binding">View Model Data Binding</string>
+    <string name="live_data">LIVE DATA</string>
+    <string name="live_data_with_bind">LIVE DATA WITH BIND</string>
+    <string name="kabaddi_kounter">Kabaddi Kounter</string>
+</resources>

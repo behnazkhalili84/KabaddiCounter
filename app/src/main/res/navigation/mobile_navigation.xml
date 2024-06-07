@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_home">
+
+    <fragment
+            android:id="@+id/nav_home"
+            android:name="com.example.kabaddicounter.ui.home.HomeFragment"
+            android:label="Kabaddi Counter"
+            tools:layout="@layout/fragment_home"/>
+
+    <fragment
+            android:id="@+id/nav_viewModel"
+            android:name="com.example.kabaddicounter.ui.viewmodel.ScoreVMFragment"
+            android:label="Kabaddi Counter"
+            tools:layout="@layout/fragment_score_v_m"/>
+
+    <fragment
+            android:id="@+id/nav_viewModelDataBinding"
+            android:name="com.example.kabaddicounter.ui.viewmodeldatabinding.ViewModelDataBinding"
+            android:label="Kabaddi Counter"
+            tools:layout="@layout/fragment_slideshow"/>
+    <fragment
+            android:id="@+id/nav_livedata"
+            android:name="com.example.kabaddicounter.ui.livedata.LiveData"
+            android:label="Kabaddi Counter"
+            tools:layout="@layout/fragment_live_data"/>
+    <fragment
+            android:id="@+id/nav_livedatawithbind"
+            android:name="com.example.kabaddicounter.ui.livedatawithbind.LiveDataWithDataBinding"
+            android:label="Kabaddi Counter"
+            tools:layout="@layout/fragment_live_data_with_data_binding"/>
+</navigation>
